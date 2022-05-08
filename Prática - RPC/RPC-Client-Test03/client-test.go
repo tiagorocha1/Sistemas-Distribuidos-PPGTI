@@ -21,7 +21,7 @@ func main() {
 	id4 := 13
 	id5 := 14
 
-	for i := 0; i < 10; i++ {
+	for i := 0; i < 1000; i++ {
 
 		go teste(id1, "50", done1)
 		go teste(id2, "50", done2)
